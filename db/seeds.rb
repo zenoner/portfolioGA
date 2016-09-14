@@ -5,3 +5,5 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Work.create(name: 'TEST', description: 'this is a test', image: 'http://www.globalintimatewear.com/Upload/UserFiles/image/Melanie%20Iglesias%20(5).jpg', link: 'n/a')
