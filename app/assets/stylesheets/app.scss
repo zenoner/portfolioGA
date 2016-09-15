@@ -1,3 +1,25 @@
 // Place all the styles related to the app controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+@import "materialize";
+
+ html {
+    font-family: GillSans, Calibri, Trebuchet, sans-serif;
+  }
+
+
+body {
+  text-align: center;
+}
+
+.container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -158px;
+  margin-left: -357px;
+}
+
+.row {
+  border-style: dotted;
+}

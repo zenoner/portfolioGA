@@ -14,3 +14,12 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+$(document).ready(function(){
+    // $("#about").click(function(){
+    //     console.log("this is working")
+    //     $(this).animate({down: '250px'});
+    // });
+
+    $("#about").animate({down: '250px'})
+
+});
