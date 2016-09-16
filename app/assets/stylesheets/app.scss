@@ -17,9 +17,31 @@ body {
   top: 50%;
   left: 50%;
   margin-top: -158px;
-  margin-left: -357px;
+  margin-left: -416px;
 }
 
 .row {
   border-style: dotted;
+}
+
+a {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 3px;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: 30px;
+}
+a:after {
+  content: '';
+  display: block;
+  margin: auto;
+  height: 3px;
+  width: 0px;
+  background: transparent;
+  transition: width .5s ease, background-color .5s ease;
+}
+a:hover:after {
+  width: 100%;
+  background: blue;
 }
