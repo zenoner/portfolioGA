@@ -14,6 +14,8 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+console.log("script loaded")
+
 $(document).ready(function(){
     // $("#about").click(function(){
     //     console.log("this is working")

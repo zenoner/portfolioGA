@@ -1,6 +1,8 @@
+<button><a href="/">my homepage</a></button>
+<br>
 <% @work.each do |work| %>
   <%= work.name %><br>
   <%= work.description %><br>
-  <%= image_tag work.image %><br>
+  <%= image_tag work.image, size: "100x20" %><br>
   <%= work.link %><br>
 <% end %>
