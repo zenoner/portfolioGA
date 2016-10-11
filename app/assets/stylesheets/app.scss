@@ -7,17 +7,17 @@
     font-family: GillSans, Calibri, Trebuchet, sans-serif;
   }
 
+*{
+  border-style: dotted;
+  border-width: 1px;
+}
 
 body {
   text-align: center;
 }
 
 .container {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  margin-top: -158px;
-  margin-left: -416px;
+  margin-top: 200px;
 }
 
 .row {
