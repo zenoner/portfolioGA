@@ -16,9 +16,54 @@ body {
   text-align: center;
 }
 
-.container {
-  margin-top: 200px;
+
+
+.navigation {
+  background-color: none;
 }
+
+ul {
+  text-align: right;
+}
+
+li {
+  display: inline;
+}
+
+.container {
+  margin-top: 0;
+}
+
+.tagLine {
+  background-color: none;
+  padding: 80px;
+  width: 100%;
+}
+
+.portfolio {
+  background-color: #00BFFF;
+  padding: 10px;
+  width: 100%;
+}
+
+.project {
+  border: 1px solid #466995;
+  display: inline-block;
+  height: 400px;
+  margin: 10px;
+  padding-top: 40px;
+  width: 400px;
+}
+
+.project:hover {
+  background: #C0D6DF;
+  color: #FFF;
+}
+
+.aboutMe {
+  text-align: center;
+}
+
 
 .row {
   border-style: dotted;
