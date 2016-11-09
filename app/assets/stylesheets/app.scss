@@ -16,14 +16,29 @@ body {
   text-align: center;
 }
 
+h1 {
+  font-size: 25px;
+  margin-top: 20px;
+  padding: 0 10px
+}
 
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+}
 
 .navigation {
   background-color: none;
+  display: flex;
+  justify-content: space-between;
 }
 
-ul {
-  text-align: right;
+.navigation li a {
+  font-size: 20px;
+}
+
+.navigation ul {
+  display: flex;
 }
 
 li {
@@ -32,6 +47,10 @@ li {
 
 .container {
   margin-top: 0;
+}
+
+#copyRight {
+  font-size: 12px;
 }
 
 .tagLine {
