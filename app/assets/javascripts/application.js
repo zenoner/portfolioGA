@@ -14,14 +14,24 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
-console.log("script loaded")
+console.log("script loaded!!!")
 
 $(document).ready(function(){
+   $('.switch').mouseenter(function(){
+      $('img.screenshot').hide();
+      $('.info').show()
+    });
+
+   $('.switch').mouseleave(function(){
+      $('img.screenshot').show();
+      $('.info').hide();
+    });
+
     // $("#about").click(function(){
     //     console.log("this is working")
     //     $(this).animate({down: '250px'});
     // });
 
-    $("#about").animate({down: '250px'})
+    //$("#about").animate({down: '250px'})
 
 });
