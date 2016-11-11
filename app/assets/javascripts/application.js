@@ -20,11 +20,17 @@ $(document).ready(function(){
    $('.switch').mouseenter(function(){
       $('img.screenshot').hide();
       $('.info').show()
+      if ($('.lang').is(':hidden')){
+        $('.lang:first').fadeIn('slow')
+      } else {
+        console.log('dont have')
+      }
     });
 
    $('.switch').mouseleave(function(){
       $('img.screenshot').show();
       $('.info').hide();
+      $('.lang').hide();
     });
 
     // $("#about").click(function(){

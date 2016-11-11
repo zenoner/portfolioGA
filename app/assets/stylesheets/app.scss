@@ -50,8 +50,7 @@ li {
 }
 
 .screenshot {
-  border-style: dotted;
-  border-width: 1px;
+
 }
 
 #copyRight {
@@ -82,14 +81,21 @@ li {
   width: 400px;
 }
 
-.project:hover {
-  background: #C0D6DF;
-  color: #FFF;
-}
+// .project:hover {
+//   background: #C0D6DF;
+//   color: #FFF;
+// }
 
 .info {
+  background-color: red;
   display: none;
-  height: 400px;
+  height: 360px;
+  width: 400px;
+}
+
+.lang {
+  display: none;
+  height: 80px;
   width: 400px;
 }
 
