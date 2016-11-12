@@ -18,10 +18,10 @@ console.log("script loaded!!!")
 
 $(document).ready(function(){
    $('.switch').mouseenter(function(){
-      $('img.screenshot').hide();
-      $('.info').show()
-      if ($('.lang').is(':hidden')){
-        $('.lang:first').fadeIn('slow')
+      $('img.screenshot', this).hide();
+      $('.info', this).show()
+      if ($('.lang', this).is(':hidden')){
+        $('.lang').fadeIn('slow')
       } else {
         console.log('dont have')
       }
