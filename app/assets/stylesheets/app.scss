@@ -22,9 +22,22 @@ h1 {
   padding: 0 10px
 }
 
+p#tagline {
+font-family: 'Open Sans', sans-serif;
+font-size: 20px;
+margin-bottom: -25px;
+}
+
+p#projectinfo {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
 p {
   font-family: 'Open Sans', sans-serif;
-  font-size: 20px;
+  font-size: 15px;
+  padding: 8px 8px;
 }
 
 .navigation {

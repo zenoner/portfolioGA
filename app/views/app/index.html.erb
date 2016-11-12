@@ -17,7 +17,7 @@
     <h3 class="blue-text text-darken-4">a Full Stack Web Developer</h3>
     <h5 class="blue-text text-darken-4">Rails-HTML-CSS-JS-NodeJS</h5>
     <br/>
-    <p class="blue-text text-darken-4">I am highly interested and adaptable with an innate drive to learn how things work.
+    <p class="blue-text text-darken-4" id="tagline">I am highly interested and adaptable with an innate drive to learn how things work.
     Using my creativity and analytical skill,
     I strive to provide people with sensible solutions and memorable user experiences.</p>
   </div>
@@ -27,7 +27,7 @@
         <%= image_tag "screeshotBrainGame", size: '400x360', :class => "screenshot" %>
         <div class="info">
           <h2>Brain Game</h2>
-          <p>this is a working memory capacity measure game</p>
+          <p id="projectinfo">A memory capacity measure game that helped to enhance your cognitive skill!</p>
           <a href="https://zenoner.github.io/"><%= image_tag "computer.svg", size: '50x50' %></a>
           <a href="https://github.com/zenoner/zenoner.github.io"><%= image_tag "github.svg", size: '50x50' %></a>
         <div class="lang">
@@ -38,19 +38,32 @@
     </div>
     <div class="project">
       <div class="switch">
-        <%= image_tag "screeshotBrainGame", size: '400x360', :class => "screenshot" %>
+        <%= image_tag "screenshotFinderBook", size: '400x360', :class => "screenshot" %>
         <div class="info">
-          <h2>Brain Game</h2>
-          <p>this is a working memory capacity measure game</p>
-          <a href="https://zenoner.github.io/"><%= image_tag "computer.svg", size: '50x50' %></a>
-          <a href="https://github.com/zenoner/zenoner.github.io"><%= image_tag "github.svg", size: '50x50' %></a>
+          <h2>BookFinder</h2>
+          <p id="projectinfo">A finder book for finding your book information and your favorite of your book!</p>
+          <a href="https://bestbookfinder.herokuapp.com/"><%= image_tag "computer.svg", size: '50x50' %></a>
+          <a href="https://github.com/zenoner/project2"><%= image_tag "github.svg", size: '50x50' %></a>
         <div class="lang">
-          <p>HTML - CSS - JS</p>
+          <p>HTML - CSS - JS - Jquery - PostgreSQL - Express.js - Node.js</p>
         </div>
         </div>
       </div>
     </div>
-    <div class="project">Project3</div>
+    <div class="project">
+      <div class="switch">
+        <%= image_tag "screenshotTriped", size: '400x360', :class => "screenshot" %>
+        <div class="info">
+          <h2>TripEd</h2>
+          <p id="projectinfo">A TripEd way to quickly book a field trip</p>
+          <a href="http://www.trip-ed.com/"><%= image_tag "computer.svg", size: '50x50' %></a>
+          <a href="https://github.com/schmartmann/TripEd"><%= image_tag "github.svg", size: '50x50' %></a>
+        <div class="lang">
+          <p>HTML - CSS - JS - Jquery - Ruby - Rails - Bcrypt - PostgreSQL</p>
+        </div>
+        </div>
+      </div>
+    </div>
     <div class="project">Project4</div>
   </div>
   <div class="aboutMe">
