@@ -121,6 +121,10 @@ li {
   border-style: dotted;
 }
 
+.test {
+
+}
+
 a {
   display: inline-block;
   position: relative;
@@ -129,7 +133,7 @@ a {
   padding-left: 10px;
   font-size: 30px;
 }
-a:after {
+a:after{
   content: '';
   display: block;
   margin: auto;
@@ -140,5 +144,5 @@ a:after {
 }
 a:hover:after {
   width: 100%;
-  background: blue;
+  background: black;
 }

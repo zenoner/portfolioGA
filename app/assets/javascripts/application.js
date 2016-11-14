@@ -16,7 +16,7 @@
 //= require_tree .
 console.log("script loaded!!!")
 
-$(document).ready(function(){
+$(document).on('turbolinks:load', function(){
    $('.switch').mouseenter(function(){
       $('img.screenshot', this).hide();
       $('.info', this).show()
