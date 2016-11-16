@@ -1,32 +1,36 @@
 
-<body class="#80d8ff light-blue accent-1">
+<body class="#f5f5f5 grey lighten-4">
   <div class="container">
 
   <div class="navigation">
-    <h1 class="blue-text text-darken-4">Seiji Mendoza</h1>
+    <h1 class="black-text text-darken-4">Seiji Mendoza</h1>
   <ul>
-    <li><a class="blue-text text-darken-4" href="/contact" id="underline" >Resume</a></li>
-    <li><a class="blue-text text-darken-4" href="/works">Projects</a></li>
-    <li><a class="blue-text text-darken-4" href="/about">About</a></li>
-    <li><a class="blue-text text-darken-4" href="https://github.com/zenoner">GitHub</a></li>
+    <li><a class="black-text text-darken-4" href="/contact" id="underline" >Resume</a></li>
+    <li><a class="black-text text-darken-4" href="/works">Projects</a></li>
+    <li><a class="black-text text-darken-4" href="/about">About</a></li>
+    <li><a class="black-text text-darken-4" href="https://github.com/zenoner">GitHub</a></li>
   </ul>
   </div>
   <div class="tagLine">
-    <h4 class="blue-text text-darken-4">Hey, there.</h4>
-    <h4 class="blue-text text-darken-4">My name is Seiji,</h4>
-    <h3 class="blue-text text-darken-4">a Full Stack Web Developer</h3>
-    <h5 class="blue-text text-darken-4">Rails-HTML5-CSS3-JS-NodeJS</h5>
+    <h4 id="heythere" class="black-text text-darken-4">Hey, there.</h4>
+    <h4 id="heythere" class="black-text text-darken-4">My name is Seiji,</h4>
+    <h3 id="fullstack" class="black-text text-darken-4">a <span style="color:#053582">Full Stack Web Developer</span></h3>
+    <h5 class="black-text text-darken-4">Rails-HTML5-CSS3-JS-NodeJS</h5>
     <br/>
-    <p class="blue-text text-darken-4" id="tagline">I am highly interested and adaptable with an innate drive to learn how things work.
+    <p class="black-text text-darken-4" id="tagline">I am highly interested and adaptable with an innate drive to learn how things work.
     Using my creativity and analytical skill,
     I strive to provide people with sensible solutions and memorable user experiences.</p>
   </div>
+  <hr>
+  <br/>
+  <br/>
   <div class="portfolio">
+  <h1 id="test">Click the image for more informatiion</h1>
     <div class="project">
       <div class="switch">
         <%= image_tag "screeshotBrainGame", size: '400x360', :class => "screenshot" %>
         <div class="info">
-          <h2>Brain Game</h2>
+          <h2>numBrain</h2>
           <p id="projectinfo">A memory capacity measure game that helped to enhance your cognitive skill!</p>
           <a href="https://zenoner.github.io/" class="test"><%= image_tag "computer.svg", size: '50x50' %></a>
           <a href="https://github.com/zenoner/zenoner.github.io"><%= image_tag "github.svg", size: '50x50' %></a>
@@ -64,17 +68,33 @@
         </div>
       </div>
     </div>
-    <div class="project">Project4</div>
+    <div class="project">
+      <div class="switch">
+        <%= image_tag "screenshotNoteworthy", size: '400x360', :class => "screenshot" %>
+        <div class="info">
+          <h2>noteWorthy</h2>
+          <p id="projectinfo">A noteWorthy way to capture what's on your mind!</p>
+          <a href="http://zenoner-noteworthy.herokuapp.com/"><%= image_tag "computer.svg", size: '50x50' %></a>
+          <a href="https://github.com/zenoner/finalProjectGA/tree/master/note_thing"><%= image_tag "github.svg", size: '50x50' %></a>
+        <div class="lang">
+          <p>HTML - CSS - JS - Jquery - Ruby - Rails - Bcrypt - PostgreSQL - Materialize</p>
+        </div>
+        </div>
+      </div>
+    </div>
   </div>
+  <br/>
+  <br/>
+  <hr>
   <div class="aboutMe">
-        <li><a class="blue-text text-darken-4" href="/about">About Me</a></li>
+        <li><a class="black-text text-darken-4" href="/about">About Me</a></li>
   </div>
   <div class="footer">
     <ul>
       <li><a href="mailto:srm5149@gmail.com" title="srm5149@gmail.com"><%= image_tag "mail.svg", size: '30x30' %></a></li>
-      <li><%= image_tag "twitter.jpg", size: '30x30' %></li>
-      <li><%= image_tag "github.svg", size: '30x30' %></li>
-      <li><%= image_tag "linkedin.svg", size: '30x30' %></li>
+      <li><%= link_to image_tag("twitter.jpg", size: '30x30'), "#" %></li>
+      <li><%= link_to image_tag("github.svg", size: '30x30'), "https://github.com/zenoner" %></li>
+      <li><%= link_to image_tag("linkedin.svg", size: '30x30'), "#" %></li>
     </ul>
     <p id="copyRight">© 2016, Seiji Mendoza</p>
   </div>

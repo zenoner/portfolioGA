@@ -7,10 +7,10 @@
     font-family: GillSans, Calibri, Trebuchet, sans-serif;
   }
 
-*{
-  border-style: dotted;
-  border-width: 1px;
-}
+// *{
+//   border-style: dotted;
+//   border-width: 1px;
+// }
 
 body {
   text-align: center;
@@ -59,6 +59,7 @@ li {
 }
 
 .container {
+  width: 70%;
   margin-top: 0;
 }
 
@@ -80,18 +81,19 @@ li {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  background-color: #00BFFF;
-  padding: 10px;
+  background-color: #bdbdbd;
+  padding-top: 40px;
+  padding-bottom: 40px;
   width: 100%;
 }
 
 .project {
-  border: 1px solid #466995;
+  //border: 1px solid #466995;
   display: inline-block;
   height: 400px;
   margin: 10px;
-  padding-top: 40px;
   width: 400px;
+
 }
 
 // .project:hover {
@@ -99,11 +101,18 @@ li {
 //   color: #FFF;
 // }
 
+// .switch {
+//   border-style: dotted;
+//   border-width: 1px;
+// }
+
 .info {
   background-color: white;
   display: none;
   height: 360px;
   width: 400px;
+   border-style: solid;
+  border-width: 1px;
 }
 
 .lang {
@@ -145,4 +154,72 @@ a:after{
 a:hover:after {
   width: 100%;
   background: black;
+}
+
+#test {
+  display: none;
+}
+
+////////
+
+@media screen and (max-width: 699px) {
+
+   #test {
+    display: block;
+   }
+
+   #tagline {
+    margin-left: -40px;
+    margin-right: -40px;
+   }
+
+   #fullstack {
+    margin-left: -40px;
+    margin-right: -40px;
+   }
+
+   h4#heythere{
+    font-size: 50px;
+    margin-left: -40px;
+    margin-right: -40px;
+   }
+
+    .info {
+    width: 100%;
+    height: 100%;
+    }
+
+    .lang {
+      width: 100%;
+    }
+
+   .screenshot  {
+    width: 100%;
+    height: 100%;
+   }
+
+  .navigation {
+    height: auto;
+
+    }
+    .navigation ul {
+      width: 100%;
+      display: inline;
+      height: auto;
+
+    }
+    .navigation li {
+      width: 100%;
+      float: left;
+      position: relative;
+    }
+    .navigation li a {
+          border-style: solid;
+    border-width: 1px;
+  }
+    .navigation a {
+      text-align: center;
+      width: 100%;
+      text-indent: 25px;
+    }
 }
