@@ -40,4 +40,6 @@ $(document).on('turbolinks:load', function(){
 
     //$("#about").animate({down: '250px'})
 
+
+
 });

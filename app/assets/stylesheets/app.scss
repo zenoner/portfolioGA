@@ -7,13 +7,15 @@
     font-family: GillSans, Calibri, Trebuchet, sans-serif;
   }
 
-// *{
-//   border-style: dotted;
-//   border-width: 1px;
-// }
+*{
+  border-style: dotted;
+  border-width: 1px;
+}
 
 body {
   text-align: center;
+  position: relative;
+
 }
 
 h1 {
@@ -159,6 +161,8 @@ a:hover:after {
 #test {
   display: none;
 }
+
+
 
 ////////
 
