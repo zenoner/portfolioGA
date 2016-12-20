@@ -33,6 +33,26 @@ $(document).on('turbolinks:load', function(){
       $('.lang').hide();
     });
 
+   // $('a[href^="#"]').on('click', function(event) {
+
+   //     var target = $(this.getAttribute('href'));
+   //    console.log('its working')
+   //     if( target.length ) {
+   //         event.preventDefault();
+   //         $('html, body').animate({
+   //             scrollTop: target.offset().top
+   //         }, 1000);
+   //     }
+
+   // });
+   $('a[href^="#"]').on('click', function(event) {
+    event.preventDefault();
+   $('html, body').animate({
+       scrollTop: $(".portfolio").offset().top
+   }, 1000);
+ });
+
+
     // $("#about").click(function(){
     //     console.log("this is working")
     //     $(this).animate({down: '250px'});
